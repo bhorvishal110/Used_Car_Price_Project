@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lan = "en" dir = 'ltr'>
+    
+    <body>
+        <div class = 'content'>
+            <h1 style = "text-align: center"> Used Car Price Prediction</h1>
+
+            <div class = "form">
+            
+                <form action = "/predict" method = "post">
+
+                <input type = 'number' name="year" id='year' placeholder="year">
+                
+                <input type = 'number' name="km_driven" id='km_driven' placeholder="km_driven">
+                
+                <input type = 'number' name="fuel" id='fuel' placeholder="fuel">
+                
+                <input type = 'number' name="seller_type" id='seller_type' placeholder="seller_type">
+                
+                <input type = 'number' name="transmission" id='transmission' placeholder="transmission">
+                
+                <input type = 'number' name="owner" id='owner' placeholder="owner">
+                
+
+                <input type ="submit" value='predict'>
+                </form>
+            </div>
+        </div>
+    </body>
